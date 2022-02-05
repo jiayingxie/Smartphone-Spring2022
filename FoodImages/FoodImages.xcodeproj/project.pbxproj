@@ -13,6 +13,7 @@
 		2F567D6927AE311700F99788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F567D6727AE311700F99788 /* Main.storyboard */; };
 		2F567D6B27AE311800F99788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F567D6A27AE311800F99788 /* Assets.xcassets */; };
 		2F567D6E27AE311800F99788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F567D6C27AE311800F99788 /* LaunchScreen.storyboard */; };
+		2F567D7627AE335000F99788 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F567D7527AE335000F99788 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F567D6A27AE311800F99788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F567D6D27AE311800F99788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F567D6F27AE311800F99788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F567D7527AE335000F99788 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2F567D6A27AE311800F99788 /* Assets.xcassets */,
 				2F567D6C27AE311800F99788 /* LaunchScreen.storyboard */,
 				2F567D6F27AE311800F99788 /* Info.plist */,
+				2F567D7527AE335000F99788 /* TableViewCell.swift */,
 			);
 			path = FoodImages;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F567D6627AE311700F99788 /* ViewController.swift in Sources */,
+				2F567D7627AE335000F99788 /* TableViewCell.swift in Sources */,
 				2F567D6227AE311700F99788 /* AppDelegate.swift in Sources */,
 				2F567D6427AE311700F99788 /* SceneDelegate.swift in Sources */,
 			);
