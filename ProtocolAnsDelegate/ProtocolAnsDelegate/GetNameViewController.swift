@@ -9,6 +9,7 @@ import UIKit
 
 protocol SendFirstAndLastNameDelegate {
     func setFirstAndLastName(firstName: String, lastName: String)
+    func setWelcomeText(welcomeText: String)
 }
 
 class GetNameViewController: UIViewController {
@@ -37,7 +38,7 @@ class GetNameViewController: UIViewController {
         guard let last = txtLastName.text else {return}
         
         sendFirstAndLastNameDelegate?.setFirstAndLastName(firstName: first, lastName: last)
-        
+        sendFirstAndLastNameDelegate?.setWelcomeText(welcomeText: "Welcome \(first), \(last)")
         self.navigationController?.popViewController(animated: true)
     }
     
