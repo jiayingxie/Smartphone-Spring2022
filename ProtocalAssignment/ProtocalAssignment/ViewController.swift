@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController, SendFirstAndLastNameDelegate {
-    
+    // implement SendFirstAndLastNameDelegate的两个函数
     func setFirstAndLastName(firstName: String, lastName: String) {
         lblLastName.text = lastName
         lblFirstName.text = firstName
@@ -35,6 +35,7 @@ class ViewController: UIViewController, SendFirstAndLastNameDelegate {
             guard let firstName = lblFirstName.text else {return}
             guard let lastName = lblLastName.text else {return}
             
+            // 为了GetNameViewController的两个textfield可以显示当前label的内容
             getNameVC.firstName = firstName
             getNameVC.lastName = lastName
             
